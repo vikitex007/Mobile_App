@@ -24,7 +24,7 @@ class ListeningWidget extends StatelessWidget {
           width: 10,
         ),
         AppText.normalText(
-          "34,234 Listening",
+          "30,000 Listening",
           fontSize: 14,
           color: textColor,
           isBold: true,

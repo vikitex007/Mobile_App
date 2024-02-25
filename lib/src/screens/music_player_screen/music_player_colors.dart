@@ -8,6 +8,9 @@ class MusicPlayerColors {
   final Color iconBackgroundColor;
   final Color iconColor;
 
+
+
+
   MusicPlayerColors(this.background, this.primaryTextColor,
       this.secondaryTextColor, this.iconBackgroundColor, this.iconColor);
 }

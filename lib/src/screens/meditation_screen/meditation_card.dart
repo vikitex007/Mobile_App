@@ -8,6 +8,8 @@ class MeditationCard extends StatelessWidget {
   const MeditationCard({Key? key, required this.text, required this.image})
       : super(key: key);
 
+
+  
   @override
   Widget build(BuildContext context) {
     return Stack(

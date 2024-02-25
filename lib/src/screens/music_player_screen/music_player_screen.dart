@@ -13,6 +13,8 @@ class MusicPlayer extends StatelessWidget {
     required this.musicPlayerColors,
   }) : super(key: key);
 
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

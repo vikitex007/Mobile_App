@@ -40,6 +40,9 @@ class SignUpScreen extends StatelessWidget {
                     color: const Color(0xffA1A4B2),
                   ),
                   const Spacer(flex: 1),
+
+
+
                   SizedBox(
                     width: double.maxFinite,
                     child: AppButtons.mainButton(

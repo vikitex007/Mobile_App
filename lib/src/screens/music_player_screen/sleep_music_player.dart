@@ -31,6 +31,8 @@ var darkMusicPlayerColors = MusicPlayerColors(
 );
 
 class MusicPlayer extends StatelessWidget {
+
+
   final bool sleepPlayer;
 
   const MusicPlayer({
@@ -90,6 +92,9 @@ class MusicPlayer extends StatelessWidget {
       ),
     );
   }
+
+
+
 
   Widget getHeaderIcons(
       BuildContext context, MusicPlayerColors musicPlayerColors) {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app/src/screens/music_player_screen/sleep_music_player.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class PlayMusicCard extends StatelessWidget {
   final String imageBackground;
@@ -89,4 +90,5 @@ class PlayMusicCard extends StatelessWidget {
       MaterialPageRoute(builder: (context) => const LightMusicPlayer()),
     );
   }
+
 }
