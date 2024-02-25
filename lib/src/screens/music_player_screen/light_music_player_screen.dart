@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'music_player_colors.dart';
 import 'music_player_screen.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 var lightMusicPlayerColors = MusicPlayerColors(
   "assets/images/backgrounds/music_background.png",
@@ -14,10 +15,13 @@ var lightMusicPlayerColors = MusicPlayerColors(
 class LightMusicPlayer extends StatelessWidget {
   const LightMusicPlayer({Key? key}) : super(key: key);
 
+
   @override
   Widget build(BuildContext context) {
     return MusicPlayer(
       musicPlayerColors: lightMusicPlayerColors,
+
     );
+
   }
 }
